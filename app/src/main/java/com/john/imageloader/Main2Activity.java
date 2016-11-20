@@ -14,10 +14,6 @@ public class Main2Activity extends AppCompatActivity {
         super.onRestart();
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-    }
 
 
 
