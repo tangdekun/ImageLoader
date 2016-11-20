@@ -1,8 +1,6 @@
 package com.john.imageloader;
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
 public class Main2Activity extends AppCompatActivity {
 
     @Override
@@ -10,4 +8,22 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
     }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
+
+
 }
